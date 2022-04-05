@@ -14,7 +14,7 @@ def empcheck(wrk_hours):
         else:
             pass
     return (emp_of_month,current_max)    
-print(empcheck(wrk_hours)      )           
+print(empcheck(wrk_hours))           
 name,hours=empcheck(wrk_hours)
 print(name)
 print(hours)

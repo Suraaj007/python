@@ -1,3 +1,5 @@
+# ATM Machine
+
 class Account():
     def __init__(self,owner,balance=0):
         self.owner= owner
@@ -13,7 +15,7 @@ class Account():
         else:
             print('sorry not enough funds!')
     def __str__(self) -> str:
-        return f'owner is {self.owner} \nbalance: {self.balance} '            
+        return f'owner is {self.owner} and balance: {self.balance} '            
 a= Account ('sam',500)
 print(a.balance)       
 print(a.owner)

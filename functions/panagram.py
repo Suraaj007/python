@@ -1,3 +1,4 @@
+#panagrams means if  set of data matches then panagram
 def panagram(str1,a):
     str1=str1.replace(' ','')
     str1=str1.lower()

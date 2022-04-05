@@ -18,5 +18,5 @@ display(d,e,f)
 e[1]='x'
 display(d,e,f)
 
-result=int(input('please enter a value'))
+#result=int(input('please enter a value'))
 

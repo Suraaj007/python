@@ -1,10 +1,10 @@
 class circle():
-    #CLASS OMJECT ATTRIBUTE
+    #CLASS ObJECT ATTRIBUTE
     pi=3.14
 
     def __init__(self,radius=1):
         self.radius=radius
-        self.area= self.pi*radius*radius
+        self.area= self.pi*radius*radius #as self variable not present we look for class variable
     #methd
     def get_cicumference(self):
         return self.radius*self.pi*2  #u can replaace self.pi by circle.pi

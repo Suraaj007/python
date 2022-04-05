@@ -2,7 +2,7 @@ from random import choice
 
 
 def check():
-    choice='hahah'
+    #choice='hahah'
     acceptablerange= range(0,11)
     withinrange=False
     while withinrange==False:
@@ -13,6 +13,7 @@ def check():
         if choice.isdigit()==True:
             if int(choice) in acceptablerange:
                 withinrange=True
+                print('digit in range')
             else:
                 print('digit entered not in range!!')    
 

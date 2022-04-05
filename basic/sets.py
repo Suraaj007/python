@@ -5,8 +5,9 @@ print(set)
 #note in sets values are unique and cant be repeated
 
 #boolean
-#to check rue false
+#to check true false
 print(1>2)
-print('2'== 2) #in this line we know sring and no. are not same
+print('2'== 2) #in this line we know sring and no. are not same so we get false
+
 print(1<2 and 2<3)
 print(not(0==2))

@@ -1,5 +1,3 @@
-from hashlib import new
-
 
 list=['string',10,10.2]
 print(list)

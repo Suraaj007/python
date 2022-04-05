@@ -3,9 +3,9 @@
  #   print(item)
 
 mylist=[1,2,3,4,5,6]
-#for num in mylist:
- #       print(num)
-  #      print('num')
+for num in mylist:
+       print(num)
+       print('num')
 
 #to check if no. is even  
 for n in mylist:
@@ -22,7 +22,7 @@ for x in k:
     print(x)
 
 for a,b in k:
-    print(a)
+    print(a,end=" ")# to avoid moving on next line after printing a we use end
     print(b)
 
 for a,b in k:

@@ -3,7 +3,7 @@ class Dog():
     #SAME FOR ANY INSTANCE OF CLASS
     species='mammal'
 
-    def __init__(self,breed,name,spots):
+    def __init__(self,breed,name,spots):  #init is a cnstructor
         #attrributes
         #we take in argument
         #assign it using self.attribute_name
@@ -11,6 +11,8 @@ class Dog():
         self.name=name
         #expect boolean true or false
         self.spots=spots
+
+        
     # operations /actions---methods
        
     def bark(self,number):

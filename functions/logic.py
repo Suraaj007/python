@@ -4,7 +4,7 @@
     else:
         print('odd')    
 '''
-from operator import truediv
+
 
 
 def evencheck(num):

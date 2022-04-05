@@ -1,12 +1,12 @@
 # to perform maths operations to get 100.25 as ans
-o= (50+50)*4
+'''o= (50+50)*4
 b= (o+1)/4
 print(b)
 
 print(4*(6+5))
 print(4*6+5)
 print(4+6*5) #check why its multiply before add op got 34
-# because pythn folloe pemdas
+# because pythn follows pemdas rule
 
 a=5
 print(type(a))
@@ -14,7 +14,7 @@ print(type(3.5+1+2))
 print(f'square of a is {a*a}')
 n=64
 
-sqrt= n**0.5
+sqrt= n**0.5  #**used for raise to functionality
 print(f'square root is {sqrt}')
 
 
@@ -45,9 +45,7 @@ print(list4)
 
 # dictonary operaions
 d={'simplekey':'hello'}
-print(d['simplekey'])
+print(d['simplekey'])'''
 
-#e={'k1':[{'nestkey':['this is deep','hello']}]}
-#print(e['k1']['nestkey'])
 
 

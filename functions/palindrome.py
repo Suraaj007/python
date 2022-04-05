@@ -9,10 +9,10 @@ def pal(s):
     else:
         print('not palindrome')
            
-    return s
+    
 
 s='kadak'
-print(pal(s))
+pal(s)
 
 
 

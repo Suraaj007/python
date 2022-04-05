@@ -1,6 +1,7 @@
-'''class Animal():
+class Animal():
     def __init__(self):
         print('animal created')
+        self.poy='poy'
     def who_am_i(self):
         print('i am an animal')
     def eat(self):
@@ -10,6 +11,8 @@
 myanimal=Animal()
 #print(myanimal)            
 myanimal.eat()
+print(myanimal.poy)
+
 
 #inheritance = we use some of methods from base class in our derived class wo writing them again
 
@@ -22,9 +25,9 @@ class Dog(Animal):
 mydog= Dog()    
 mydog.eat()
 mydog.who_am_i()
-mydog.bark()'''
+mydog.bark()
 
-#polymorphism
+'''#polymorphism
 class Dog():
     def __init__(self,name) -> None:
         self.name=name
@@ -44,4 +47,4 @@ def petspeak(pet):
     print(pet.speak())
 petspeak(niko)
 petspeak(felix)
-    
+    '''

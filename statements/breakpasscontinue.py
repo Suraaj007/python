@@ -8,7 +8,7 @@ print('end of script')
 
 mystring="sammy"
 for letter in mystring:
-    print(letter)
+    print(letter) #after performing print operation print directly moves to next line
 
 for letter in mystring:
     if letter=='a':
@@ -23,7 +23,7 @@ for letter in mystring :
 m=0
 while m<5:
     if m==2:
-        break # you wiil be out of while loop goon next line 
+        break # you wiil be out of while loop go on a next line 
     print(m)
     m+=1
 

@@ -9,8 +9,7 @@ mystr='suraj'
 func(mystr)   '''
   
 #return the sum  no. in array except all element between 6 and 9 if present
-from functools import total_ordering
-from operator import truediv
+
 
 
 def sum(arr):

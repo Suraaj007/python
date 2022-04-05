@@ -10,8 +10,8 @@
     return len(code)==1
 print(game([1,2,4,0,0,7,5]))   
 print(game([1,2,4,0,5,7,5]))     
-print(game([1,0,2,4,0,5,7]))
-'''
+print(game([1,0,2,4,0,5,7]))'''
+
 #write a function that returns the no. of prime no. that exist upto and including given no.
 #by convention 0 and 1 not prime
 def countprime(num):
@@ -20,13 +20,15 @@ def countprime(num):
     primes = [2]
     x=3
     while x<=num:
-        for y in range(3,x,2):
+        for y in range(3,x):
             if x%y==0:
-                x+=2
+                x+=1
                 break
-        else:
-            primes.append(x)
-            x+=2
+                
+            else:
+                continue
+        primes.append(x)
+        x+=1
     print(primes)
     return len(primes) 
 print(countprime(10))                
